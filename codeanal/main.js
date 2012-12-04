@@ -9,6 +9,6 @@ var Renderer = require("ace/virtual_renderer").VirtualRenderer;
 var editor = new Editor(new Renderer(document.getElementById("editor"), require("ace/theme/textmate")));
 editor.resize();
 editor.setTheme("ace/theme/twilight");
-editor.session.setMode("ace/mode/javascript");
+editor.session.setMode("ace/mode/mustache");
 
 });
